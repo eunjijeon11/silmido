@@ -1,0 +1,60 @@
+2024-10-11 22:02:26,742 MainProcess urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): huggingface.co:443
+2024-10-11 22:02:26,971 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-11 22:02:26,980 MainProcess filelock DEBUG    Attempting to acquire lock 140045224033776 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/27c24ca9d908d0b678b20c698aeb9e950c44d865.lock
+2024-10-11 22:02:26,981 MainProcess filelock DEBUG    Lock 140045224033776 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/27c24ca9d908d0b678b20c698aeb9e950c44d865.lock
+2024-10-11 22:02:27,180 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/tokenizer_config.json HTTP/11" 200 685
+2024-10-11 22:02:27,181 MainProcess filelock DEBUG    Attempting to release lock 140045224033776 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/27c24ca9d908d0b678b20c698aeb9e950c44d865.lock
+2024-10-11 22:02:27,181 MainProcess filelock DEBUG    Lock 140045224033776 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/27c24ca9d908d0b678b20c698aeb9e950c44d865.lock
+2024-10-11 22:02:27,367 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/config.json HTTP/11" 200 0
+2024-10-11 22:02:27,368 MainProcess filelock DEBUG    Attempting to acquire lock 140045142903392 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/562d268bddb298d43b74a55c3197d1a011c473c4.lock
+2024-10-11 22:02:27,368 MainProcess filelock DEBUG    Lock 140045142903392 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/562d268bddb298d43b74a55c3197d1a011c473c4.lock
+2024-10-11 22:02:27,556 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/config.json HTTP/11" 200 644
+2024-10-11 22:02:27,557 MainProcess filelock DEBUG    Attempting to release lock 140045142903392 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/562d268bddb298d43b74a55c3197d1a011c473c4.lock
+2024-10-11 22:02:27,557 MainProcess filelock DEBUG    Lock 140045142903392 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/562d268bddb298d43b74a55c3197d1a011c473c4.lock
+2024-10-11 22:02:27,766 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/vocab.json HTTP/11" 200 0
+2024-10-11 22:02:27,766 MainProcess filelock DEBUG    Attempting to acquire lock 140045142901568 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/0a39732b2d8be8e493cab3da68b68cc3e28221de.lock
+2024-10-11 22:02:27,767 MainProcess filelock DEBUG    Lock 140045142901568 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/0a39732b2d8be8e493cab3da68b68cc3e28221de.lock
+2024-10-11 22:02:27,966 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/vocab.json HTTP/11" 200 898822
+2024-10-11 22:02:28,146 MainProcess filelock DEBUG    Attempting to release lock 140045142901568 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/0a39732b2d8be8e493cab3da68b68cc3e28221de.lock
+2024-10-11 22:02:28,146 MainProcess filelock DEBUG    Lock 140045142901568 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/0a39732b2d8be8e493cab3da68b68cc3e28221de.lock
+2024-10-11 22:02:28,335 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/merges.txt HTTP/11" 200 0
+2024-10-11 22:02:28,337 MainProcess filelock DEBUG    Attempting to acquire lock 140045142905984 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-10-11 22:02:28,337 MainProcess filelock DEBUG    Lock 140045142905984 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-10-11 22:02:28,535 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/merges.txt HTTP/11" 200 456318
+2024-10-11 22:02:28,879 MainProcess filelock DEBUG    Attempting to release lock 140045142905984 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-10-11 22:02:28,879 MainProcess filelock DEBUG    Lock 140045142905984 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2024-10-11 22:02:29,080 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/added_tokens.json HTTP/11" 404 0
+2024-10-11 22:02:29,279 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/special_tokens_map.json HTTP/11" 200 0
+2024-10-11 22:02:29,281 MainProcess filelock DEBUG    Attempting to acquire lock 140045142901904 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/5dfa36546b8eddce0e04df3133c30df43fcc3828.lock
+2024-10-11 22:02:29,281 MainProcess filelock DEBUG    Lock 140045142901904 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/5dfa36546b8eddce0e04df3133c30df43fcc3828.lock
+2024-10-11 22:02:29,473 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/special_tokens_map.json HTTP/11" 200 441
+2024-10-11 22:02:29,475 MainProcess filelock DEBUG    Attempting to release lock 140045142901904 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/5dfa36546b8eddce0e04df3133c30df43fcc3828.lock
+2024-10-11 22:02:29,475 MainProcess filelock DEBUG    Lock 140045142901904 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/5dfa36546b8eddce0e04df3133c30df43fcc3828.lock
+2024-10-11 22:02:29,788 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/config.json HTTP/11" 200 0
+2024-10-11 22:02:30,017 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/model.safetensors HTTP/11" 404 0
+2024-10-11 22:02:30,214 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/model.safetensors.index.json HTTP/11" 404 0
+2024-10-11 22:02:30,442 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/pytorch_model.bin HTTP/11" 302 0
+2024-10-11 22:02:30,444 MainProcess filelock DEBUG    Attempting to acquire lock 140045047637056 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/a5223ae6f3c26c6d90003f96a6bcd9a4aaaef0d36fca6469112efeeb985f2842.lock
+2024-10-11 22:02:30,445 MainProcess filelock DEBUG    Lock 140045047637056 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/a5223ae6f3c26c6d90003f96a6bcd9a4aaaef0d36fca6469112efeeb985f2842.lock
+2024-10-11 22:02:30,449 MainProcess urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): cdn-lfs.hf.co:443
+2024-10-11 22:02:30,694 MainProcess urllib3.connectionpool DEBUG    https://cdn-lfs.hf.co:443 "GET /repos/2d/51/2d51352256ba577724ec53b247175bd0928dfc5387e98f45a2f3eab954c26eaf/a5223ae6f3c26c6d90003f96a6bcd9a4aaaef0d36fca6469112efeeb985f2842?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27pytorch_model.bin%3B+filename%3D%22pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&Expires=1728957750&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyODk1Nzc1MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9yZXBvcy8yZC81MS8yZDUxMzUyMjU2YmE1Nzc3MjRlYzUzYjI0NzE3NWJkMDkyOGRmYzUzODdlOThmNDVhMmYzZWFiOTU0YzI2ZWFmL2E1MjIzYWU2ZjNjMjZjNmQ5MDAwM2Y5NmE2YmNkOWE0YWFhZWYwZDM2ZmNhNjQ2OTExMmVmZWViOTg1ZjI4NDI~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT0qIn1dfQ__&Signature=W3Snh5aI2FBViuA1FkRTSksnJSBHK3JNJJS59aZ2sykphtveM5R6wKmAIEcqgXiRgDYLqT19hUAaxu4JagVHEHkRf-4rCOn1SSXB1ietOpX9qJRsLlCNJOeVdHwTl07y-F27K4PSmPHYG3eIv-Fkh4vVmQmcSsARzZA4JMUTPmAm7v-6YgDOtZXwIREr9rUbmX-wv~aETtyQ0QRBir23gVFugQI2nPYfYHhtr5Ooj4xptEIUpTq97v0VOwCKToNW2afmUBCberQR7faxQH1nNPftr8bWHXHlCIqF6DCVLcc3PqgOuZQ3uWKck13S1Fol~nlCiBmXWYGX7AjlF98~lA__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/11" 200 662513657
+2024-10-11 22:02:53,343 MainProcess filelock DEBUG    Attempting to release lock 140045047637056 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/a5223ae6f3c26c6d90003f96a6bcd9a4aaaef0d36fca6469112efeeb985f2842.lock
+2024-10-11 22:02:53,343 MainProcess filelock DEBUG    Lock 140045047637056 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/a5223ae6f3c26c6d90003f96a6bcd9a4aaaef0d36fca6469112efeeb985f2842.lock
+2024-10-11 22:02:55,102 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/generation_config.json HTTP/11" 200 0
+2024-10-11 22:02:55,104 MainProcess filelock DEBUG    Attempting to acquire lock 140045047985008 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/cf739e3ba86db7791ebab2828cc34b8a5acd3a86.lock
+2024-10-11 22:02:55,104 MainProcess filelock DEBUG    Lock 140045047985008 acquired on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/cf739e3ba86db7791ebab2828cc34b8a5acd3a86.lock
+2024-10-11 22:02:55,311 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "GET /facebook/opt-350m/resolve/main/generation_config.json HTTP/11" 200 137
+2024-10-11 22:02:55,313 MainProcess filelock DEBUG    Attempting to release lock 140045047985008 on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/cf739e3ba86db7791ebab2828cc34b8a5acd3a86.lock
+2024-10-11 22:02:55,313 MainProcess filelock DEBUG    Lock 140045047985008 released on /home/reagankoo/.cache/huggingface/hub/.locks/models--facebook--opt-350m/cf739e3ba86db7791ebab2828cc34b8a5acd3a86.lock
+2024-10-11 22:02:55,330 MainProcess __main__ INFO     Using conv_mode=vicuna_v1
+2024-10-11 22:02:56,653 MainProcess __main__ INFO     Important: set video_fps = 1.0
+2024-10-11 22:02:56,653 MainProcess __main__ INFO     Important: set play_speed = 1.0
+2024-10-11 22:02:58,310 Process-4  __mp_main__ INFO     MemManager Process: start
+2024-10-11 22:26:13,351 MainProcess urllib3.connectionpool DEBUG    Starting new HTTPS connection (1): huggingface.co:443
+2024-10-11 22:26:13,554 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2024-10-11 22:26:13,773 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/config.json HTTP/11" 200 0
+2024-10-11 22:26:15,420 MainProcess urllib3.connectionpool DEBUG    https://huggingface.co:443 "HEAD /facebook/opt-350m/resolve/main/generation_config.json HTTP/11" 200 0
+2024-10-11 22:26:15,429 MainProcess __main__ INFO     Using conv_mode=vicuna_v1
+2024-10-11 22:26:16,740 MainProcess __main__ INFO     Important: set video_fps = 1.0
+2024-10-11 22:26:16,740 MainProcess __main__ INFO     Important: set play_speed = 1.0
+2024-10-11 22:26:18,436 Process-4  __mp_main__ INFO     MemManager Process: start
